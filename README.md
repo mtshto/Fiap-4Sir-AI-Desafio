@@ -39,7 +39,7 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
 
 ### Como executar o projeto
 
-## Importante ter instalado o Python, OpenCV, e Numpy
+#### Importante ter instalado o Python, OpenCV, e Numpy
 
 - Clone o repositório:
 ```
