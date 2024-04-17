@@ -20,7 +20,8 @@ while True:
     #TODO: Implementar aqui lógica para pegar somente parte do campo
     #Fazer isso com o vídeo spfc560p.mp4, o editado é um vídeo com a torcida cortada no editor...
     #Houve uma melhoria de uns 15~20% perfomance com isso.
-        
+
+    #Em Windows altere o device para gpu, no Mac (M1+) mantenha mps
     results = model(source=frame, conf=0.25, device="mps", task="detect", mode="predict")
     result = results[0]
 
