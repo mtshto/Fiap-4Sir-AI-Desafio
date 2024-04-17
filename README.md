@@ -37,7 +37,7 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
    - [ ] 2 - Tempo com a bola de cada time
    - [ ] 1 - Marcação de impedimento
 
-### Como executar o projeto
+### Como executar o projeto:
 
 #### Importante ter instalado o Python, OpenCV, e Numpy
 
