@@ -23,8 +23,6 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
 
 ### Critérios de Avaliação:
 
-##Importante ter instalado o Python, OpenCV, e Numpy
-
 1. **Inovação e Criatividade na Abordagem do Problema:** (3 Pontos)
    - [ ] 3 - Abordagem bem implementada e com features diferentes das usuais.
    - [ ] 1,5 - Abordagem seguindo os projetos já existentes e sem diferencial.
@@ -41,8 +39,7 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
 
 ### Como executar o projeto
 
-1. Clone esse repositório com: git clone https://github.com/mtshto/Fiap-4Sir-AI-Desafio.git
-2. Instale o
+##Importante ter instalado o Python, OpenCV, e Numpy
 
 - Clone o repositório:
 ```
