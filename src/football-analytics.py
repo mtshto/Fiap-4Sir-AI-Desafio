@@ -39,6 +39,7 @@ while True:
 
     cv2.imshow("", frame)
 
+    #Aguarda a tecla 'ESC' ser pressionada para encerrar a execução
     key = cv2.waitKey(1)
     if key == 27:
         break
