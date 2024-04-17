@@ -23,6 +23,8 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
 
 ### Critérios de Avaliação:
 
+##Importante ter instalado o Python, OpenCV, e Numpy
+
 1. **Inovação e Criatividade na Abordagem do Problema:** (3 Pontos)
    - [ ] 3 - Abordagem bem implementada e com features diferentes das usuais.
    - [ ] 1,5 - Abordagem seguindo os projetos já existentes e sem diferencial.
@@ -33,6 +35,36 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
    - [ ] 2 - Solução identificando os jogadores de ambos os times
 
 3. **Features:** (3 pontos)
-   - [ ] 3 - Identificar qual jogador está com a bola
+   - [ ] 3 - Identificar quando for gol
    - [ ] 2 - Tempo com a bola de cada time
    - [ ] 1 - Marcação de impedimento
+
+### Como executar o projeto
+
+1. Clone esse repositório com: git clone https://github.com/mtshto/Fiap-4Sir-AI-Desafio.git
+2. Instale o
+
+- Clone o repositório:
+```
+git clone https://github.com/mtshto/Fiap-4Sir-AI-Desafio.git
+```
+
+- Acesse a pasta do projeto
+```
+cd Fiap-4Sir-AI-Desafio
+```
+
+- Install o pacote do ultralytics
+```
+pip3 install ultralytics
+```
+
+- Acesse a pasta onde está o arquivo de execução .py
+```
+cd src
+```
+
+- Execute o projeto com
+```
+python3 football-analytics.py
+```
