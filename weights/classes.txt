@@ -1,0 +1,4 @@
+Bola
+Goleiro
+Jogador
+Juiz
