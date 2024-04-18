@@ -56,6 +56,12 @@ cd Fiap-4Sir-AI-Desafio
 pip3 install ultralytics
 ```
 
+- Install o pacote do omegaconf
+```
+pip install omegaconf
+```
+
+
 - Acesse a pasta onde está o arquivo de execução .py
 ```
 cd src
