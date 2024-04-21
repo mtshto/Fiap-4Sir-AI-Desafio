@@ -34,8 +34,8 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
 
 3. **Features:** (3 pontos)
    - [ ] 3 - Identificar quando for gol
-   - [ ] 2 - Marcação de impedimento
-   - [ ] 1 - Detectar passe de bola
+   - [ ] 2 - Detectar passe de bola
+   - [ ] 1 - Detectar posse de bola
 
 ### Como executar o projeto:
 
