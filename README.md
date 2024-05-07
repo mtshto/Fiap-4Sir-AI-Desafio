@@ -30,12 +30,12 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
 
 2. **Eficiência e Precisão da Solução de Visão Computacional:** 4 (pontos)
    - [ ] 4 - Solução identificando todos os jogadores, e a bola.
-   - [ ] 2 - Solução identificando os jogadores de ambos os times
+   - [ ] 2 - Solução identificando os jogadores.
 
 3. **Features:** (3 pontos)
    - [ ] 3 - Identificar quando for gol
-   - [ ] 2 - Marcação de impedimento
-   - [ ] 1 - Detectar passe de bola
+   - [ ] 2 - Detectar passe de bola
+   - [ ] 1 - Detectar posse de bola
 
 ### Como executar o projeto:
 
