@@ -29,7 +29,7 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only L
 
 
 2. **Eficiência e Precisão da Solução de Visão Computacional:** 4 (pontos)
-   - [ ] 4 - Solução identificando todos os jogadores, juiz e bola.
+   - [ ] 4 - Solução identificando todos os jogadores, e a bola.
    - [ ] 2 - Solução identificando os jogadores.
 
 3. **Features:** (3 pontos)
