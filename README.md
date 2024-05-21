@@ -21,7 +21,7 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib Ultralytics - YO
 
 ### Apresentação do Projeto
 
-# Minha Apresentação
+Sugestão: Clique no ícone abaixo com o botão direito e selecione "Abrir em uma nova aba", assim você terá acesso a nossa apresentação e projeto ao mesmo tempo.
 
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vSLLEI-OCvqdW3naUhHPCXyoaWHCXePR8_ooOTGC6U2U79H7Fs66-1dz2HgRELVn-koupcMjH5Hd0LP/pub?start=false&loop=false&delayms=30000" target="_blank">
   <img src="https://img.shields.io/badge/Google%20Slides-Presentation-F39C12?style=for-the-badge&logo=google-slides" alt="Google Slides">
