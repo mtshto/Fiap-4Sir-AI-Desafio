@@ -13,11 +13,11 @@
 
 ## Definição do Projeto
 
-O objetivo do nosso projeto é desenvolver um Analytics de Futebol usando visão computacional. Este Analytics será gerado com base na análise de vídeos de partidas de futebol, identificando os jogadores e distinguindo-os pela cor da camisa. Além disso, o Analytics irá conter informações como o tempo de posse de bola de cada time e jogador, além de traçar linhas de impedimento, quando aplicável.
+O objetivo do nosso projeto é desenvolver um Analytics de Futebol usando visão computacional. Este Analytics será gerado com base na análise de vídeos de partidas de futebol, identificando os jogadores. Além disso, o Analytics irá detectar informações como a de posse de bola, passe de bola, e o gol.
 
 ### Projeto Base
 
-Para realizar este projeto, decidimos utilizar a biblioteca/lib YOLO (You Only Look Once) devido à sua eficácia na detecção e identificação de objetos em vídeos. Como base para o desenvolvimento, estamos utilizando o projeto disponível em: [YOLOv8-football](https://github.com/noorkhokhar99/YOLOv8-football).
+Para realizar este projeto, decidimos utilizar a biblioteca/lib Ultralytics - YOLO (You Only Look Once) devido à sua eficácia na detecção e identificação de objetos em vídeos. Como base para o desenvolvimento, estamos utilizando o projeto disponível em: [YOLOv8-football](https://github.com/noorkhokhar99/YOLOv8-football).
 
 ## Rubrica de Avaliação
 
