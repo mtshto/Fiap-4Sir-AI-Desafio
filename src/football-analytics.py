@@ -1,3 +1,4 @@
+# Importando as libs a serem utilizadas no projeto
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -10,13 +11,15 @@ def euclidean_distance(p1, p2):
 # Criar janela para o vídeo e painel de status
 cv2.namedWindow("Football Detection", cv2.WINDOW_NORMAL)
 
+# Carregando o modelo YOLO escolhido
 model = YOLO('weights/yolov8n-football.pt')
 
+# Carregando o arquivo de classes
 class_names = []
 with open("weights/classes.txt", "r") as file:
     class_names = [line.strip() for line in file.readlines()]
 
-#Vídeos para teste:
+#Vídeos para teste (Utilize somente 1):
 cap = cv2.VideoCapture("videos/mciXrma22gol.mp4")
 #cap = cv2.VideoCapture("videos/barXbay20gol.mp4")
 
@@ -28,14 +31,20 @@ goal_time = None  # Controlador do tempo para manter a indicação de gol
 pass_timer = None
 goal_timeout = 5  # Manter a indicação de gol por 5 segundos
 
+# Loop para processar cada frame do vídeo
 while True:
     ret, frame = cap.read()
     if not ret:
         break
 
+    # Chamando o modelo YOLO para processar o frame atual
+    # Em device utilize "gpu" caso tenha uma placa de vídeo NVIDIA com Cuda configurado
+    # Caso não tenha mantenha o device em "mps"
+    # MPS é uma tecnologia mais antiga e menos perfomática, mas com mais opções de compatibilidade
     results = model(source=frame, conf=0.1, device="mps", task="detect", mode="predict")
     result = results[0]
 
+    # Destacando as classes (Jogador, Bola, Juiz, e Goleiro) no frame
     bboxes = np.array(result.boxes.xyxy.cpu(), dtype="int")
     classes = np.array(result.boxes.cls.cpu(), dtype="int")
 
@@ -112,12 +121,15 @@ while True:
     if goal_detected:
         cv2.putText(status_frame, "X", (50, 215), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0), 2)
 
+    # Exibindo execução na tela (real-time)
     combined_frame = np.hstack((frame, status_frame))
     cv2.imshow("Football Detection", combined_frame)
 
+    # Aperte ESC para encerrar a aplicação
     key = cv2.waitKey(1)
     if key == 27:
         break
 
+# Encerrando a aplicação
 cap.release()
 cv2.destroyAllWindows()
