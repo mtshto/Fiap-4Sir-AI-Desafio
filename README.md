@@ -19,7 +19,7 @@ O objetivo do nosso projeto é desenvolver um Analytics de Futebol usando visão
 
 Para realizar este projeto, decidimos utilizar a biblioteca/lib Ultralytics - YOLO (You Only Look Once) devido à sua eficácia na detecção e identificação de objetos em vídeos. Como base para o desenvolvimento, estamos utilizando o projeto disponível em: [YOLOv8-football](https://github.com/noorkhokhar99/YOLOv8-football).
 
-### Apresentação do Projeto
+## Apresentação do Projeto
 
 Sugestão: Clique no ícone abaixo com o botão direito e selecione "Abrir link em uma nova aba", assim você terá acesso a nossa apresentação e projeto ao mesmo tempo.
 
