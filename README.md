@@ -23,8 +23,9 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib Ultralytics - YO
 
 # Minha Apresentação
 
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vSLLEI-OCvqdW3naUhHPCXyoaWHCXePR8_ooOTGC6U2U79H7Fs66-1dz2HgRELVn-koupcMjH5Hd0LP/pub?start=false&loop=false&delayms=30000" target="_blank">Veja a nossa apresentação de slides</a>
-
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSLLEI-OCvqdW3naUhHPCXyoaWHCXePR8_ooOTGC6U2U79H7Fs66-1dz2HgRELVn-koupcMjH5Hd0LP/pub?start=false&loop=false&delayms=30000" target="_blank">
+  <img src="https://img.shields.io/badge/Google%20Slides-Presentation-F39C12?style=for-the-badge&logo=google-slides" alt="Google Slides">
+</a>
 
 ## Rubrica de Avaliação
 
