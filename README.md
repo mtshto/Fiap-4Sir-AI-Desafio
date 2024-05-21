@@ -32,18 +32,18 @@ Sugestão: Clique no ícone abaixo com o botão direito e selecione "Abrir link 
 ### Critérios de Avaliação:
 
 1. **Inovação e Criatividade na Abordagem do Problema:** (3 Pontos)
-   - [ ] 3 - Abordagem bem implementada e com features diferentes das usuais.
-   - [ ] 1,5 - Abordagem seguindo os projetos já existentes e sem diferencial.
+   - [x] 3 - Abordagem bem implementada e com features diferentes das usuais.
+   - [x] 1,5 - Abordagem seguindo os projetos já existentes e sem diferencial.
 
 
 2. **Eficiência e Precisão da Solução de Visão Computacional:** 4 (pontos)
-   - [ ] 4 - Solução identificando todos os jogadores, e a bola.
-   - [ ] 2 - Solução identificando os jogadores.
+   - [x] 4 - Solução identificando todos os jogadores, e a bola.
+   - [x] 2 - Solução identificando os jogadores.
 
 3. **Features:** (3 pontos)
-   - [ ] 3 - Identificar quando for gol
-   - [ ] 2 - Detectar passe de bola
-   - [ ] 1 - Detectar posse de bola
+   - [x] 3 - Identificar quando for gol
+   - [x] 2 - Detectar passe de bola
+   - [x] 1 - Detectar posse de bola
 
 ### Como executar o projeto:
 
