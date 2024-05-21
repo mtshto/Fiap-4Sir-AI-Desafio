@@ -21,7 +21,10 @@ Para realizar este projeto, decidimos utilizar a biblioteca/lib Ultralytics - YO
 
 ### Apresentação do Projeto
 
-[Veja a apresentação de slides](https://docs.google.com/presentation/d/e/2PACX-1vSLLEI-OCvqdW3naUhHPCXyoaWHCXePR8_ooOTGC6U2U79H7Fs66-1dz2HgRELVn-koupcMjH5Hd0LP/pub?start=false&loop=false&delayms=30000)
+# Minha Apresentação
+
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSLLEI-OCvqdW3naUhHPCXyoaWHCXePR8_ooOTGC6U2U79H7Fs66-1dz2HgRELVn-koupcMjH5Hd0LP/pub?start=false&loop=false&delayms=30000" target="_blank">Veja a nossa apresentação de slides</a>
+
 
 ## Rubrica de Avaliação
 
